@@ -69,9 +69,6 @@ class _DisplayScreenState extends State<DisplayScreen> {
                       setState(() {
                         input = input + '1';
                         value = value + '1';
-
-                        // print("input $input");
-                        // print("value $value");
                       });
                     },
                     child: CircleAvatar(
